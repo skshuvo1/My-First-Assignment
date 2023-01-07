@@ -1,10 +1,29 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:sans-serif;
 }
 /* Header Section */
+#navber{
+    width: 100%;
+}
+#navber ul{
+    display: flex;
+    float: right;
+    margin-right: 5%;
+}
+#navber ul li{
+    list-style: none;
+    padding: 20px;
+}
+#navber ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 4px;
+}
 .header_section{
-    height: 753px;
+    height: 853px;
     width: 100%;
     background: url(images/banner/banner3.png);
     color: #fff;
@@ -17,6 +36,200 @@
 .header_content{
     max-width: 30%;
     float: right;
-    margin: 10% 11% 0% 0%;
+    margin: 14% -35% 0% 0%;
     text-align: right;
 }
+/* failure section */
+#main_section{
+    height:auto;
+    width: 100%;
+}
+.failure_info ul li:before
+{
+    content: '\2713';
+    display: inline-block;
+    color: #007bf3;
+    padding: 0 6px 0 0;
+}
+
+.failure_info ul li
+{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 35px;
+}
+.failure_section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -9%;
+}
+.failure_section img{
+    margin-left: 22%;
+    margin-top: 6%;
+}
+.failure_info{
+    max-width: 640px;
+    margin-top: 22%;
+    text-align: left;
+    margin-right: 1%;
+}
+.failure_info h1{
+    font-size: 40px;
+    margin-bottom: 17px;
+}
+.failure_info p{
+    font-size: 21px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.failure_info ul{
+    line-height: 20px;
+}
+/* planning Section */
+
+.planning_section{
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-top: 100px;
+}
+.planning_section h2{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 37px;
+}
+.planning_info{
+    width: 300px;
+    height: 150px;
+    margin-top: 50px;
+    text-align: center;
+}
+.planning_info img{
+    margin-bottom: 15px;
+}
+.planning_info h1{
+    margin-bottom: 10px;
+}
+.planning_info p{
+    font-size: 24px;
+    color: #7f7f7f;
+}
+.info_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 10% 3% 10%;
+}
+
+.calling_sec{
+    height: 300px;
+    width: 73%;
+    margin: auto;
+    background: linear-gradient(to left, rgb(52 66 150 / 52%), rgb(142 14 169 / 73%)),url(images/watch.png);
+    margin-top: 12%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 12%;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+.calling_sec h1{
+    font-size: 50px;
+    max-width: 552px;
+    color: #fff;
+    padding-top: 60px;
+    padding-left: 60px;
+    line-height: 50px;
+}
+.calling_sec button{
+    height: 70px;
+    width: 201px;
+    color: #007bf3;
+    background: #fff;
+    font-size: 21px;
+    border: none;
+    border-radius: 10px;
+    margin: 2% 0% 2% 4%;
+    font-weight: 549;
+}
+
+/* footer section */
+
+.footer_container{
+    display:flex;
+    background: black;
+    color: #fff;
+    height: auto;
+    justify-content: space-between;
+    padding: 10%;
+}
+.feature_Heading h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.feature_Heading p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.feature_icon i{
+    font-size: 30px;
+    margin: 8px;
+}
+.subscribe_section{
+    max-width: 400px;
+    margin-right: 10%;
+}
+.subscribe_section h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.subscribe_section input{
+    height: 55px;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 2px solid #fff;
+    background: black;
+    border-radius: 10px;
+}
+.subscribe_section button{
+    height: 70px;
+    width: 186px;
+    font-size: 25px;
+    margin-top: 10px;
+    color: #e60505;
+    border-radius: 10px;
+}
+.left_footer{
+    max-width: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
